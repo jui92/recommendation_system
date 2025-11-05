@@ -1,7 +1,13 @@
+# --- 핵심 버전 고정 (TensorFlow 2.15 호환 세트) ---
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.3.2
+joblib==1.3.2
+
+# Streamlit
 streamlit==1.39.0
-pandas>=1.5
-numpy>=1.23
-scikit-learn>=1.3
-joblib>=1.3
-tensorflow-cpu==2.15.0   
-protobuf<=3.20.3
+
+# TensorFlow (CPU 전용: Cloud에서 용량/빌드 안정적)
+tensorflow-cpu==2.15.0
+keras==2.15.0
+protobuf==3.20.3
